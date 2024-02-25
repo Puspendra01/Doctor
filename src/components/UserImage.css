@@ -1,0 +1,19 @@
+.userImages {
+    display: flex;
+    flex-wrap: wrap;
+  
+    img {
+      width: 33.333%;
+      height: auto;
+      object-fit: cover;
+      margin-bottom: 1rem;
+  
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+  
+      @media (max-width: 480px) {
+        width: 100%;
+      }
+    }
+  }
